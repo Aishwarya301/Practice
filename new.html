@@ -1,0 +1,191 @@
+<html>
+<head>
+<style>
+.subnav {
+    float: right;
+    overflow: hidden;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+}
+html{
+background-color:black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+	scrollbar:no
+}
+.navbar a {
+    float: right;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+.subnav .subnavbtn {
+    font-size: 24px; 
+    color:white;   
+    border: none;
+    outline: none;
+    padding: 20px 40px;
+    background-color: black;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+}
+
+.subnav-content {
+    display: none;
+    position:absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index:1;
+
+}
+
+.subnav-content a {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margxin:100;
+  font-family: Arial;
+  font-size: 17px;
+scrollbar:no;
+
+}
+
+.container {
+ 
+ 
+  align:right;
+  position: right;
+  max-width: 1200px;
+  margin:20;
+
+}
+
+.container img {
+
+ top: 60;
+height: 450;
+ position: relative;
+vertical-align: left;
+}
+
+.container .content {
+  
+  position: absolute;
+  align: left;
+  bottom: 10;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 60%;
+  padding: 40px;
+}
+
+img1{
+	margin: 1px;
+	padding: 60px;
+	width: 50%;
+    	height:40%;
+}
+
+.container1 {
+    position: relative;
+    width: 30%;
+    top: -360;
+    left:890;
+    max-width: 300px;
+}
+
+.container1 img1 {
+    width: 100%;
+    height:40%;
+}
+
+
+.center1{
+top: 100%;
+left: 0;
+width:120%;
+margin: 5px;
+padding: 4px;
+text-align:center
+font-family:jokerman;
+font-size:20;
+color: white;
+background:black;
+font-style:bold;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div class="navbar">
+<div class="subnav">   
+  <a href="home.html"><i class="fa fa-book"></i>&nbsp; About Institute &nbsp;</a></button>
+</div>
+<div class="subnav">   
+  <a href="home.html"><i class="fa fa-user"></i>&nbsp; About Us &nbsp;</a></button>
+</div>
+<div class="subnav">   
+  <a href="home.html"><i class="fa fa-flag"></i>&nbsp; Unnat Bharat Abhiyan &nbsp;</a></button>
+</div>
+<div class="subnav"> 
+  <a href="home.html"><i class="fa fa-tasks"></i>&nbsp; Rule Book &nbsp;</a></button>
+</div>
+<div class="subnav">   
+  <a href="home.html"><i class="fa fa-home"></i>&nbsp; Home &nbsp;</a></button>
+</div>
+<div class="subnav">   
+  <a href="home.html"><i class="fa fa-star"></i>&nbsp; Index &nbsp;</a></button>
+</div>
+</div>
+<div class="contents">
+        <h3 class="section-title">Themes</h3>
+        <div class="contents-item">
+          <img src="agricul.jpg" height="300px" width="200px" margin="30px">
+          <p style="color:white;">Organic Farming</p>
+        </div>
+        <div class="contents-item">
+          <img src="img/water management.jpeg">
+          <p>Water Management</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
+          <p>Ruby</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
+          <p>Swift</p>
+        </div>
+      </div>
+</div>
+</body>
+</html>

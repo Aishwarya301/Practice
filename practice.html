@@ -1,0 +1,44 @@
+<html>
+<script type="text/javascript">
+function text1()
+{
+var t1 = document.getElementById("name").value;
+if (t1.length == 0)
+{
+document.getElementById("para").innerHTML = "Enter Your Name";
+}
+else 
+document.getElementById("para").innerHTML = "Welcome";
+document.getElementById("para").innerHTML = t1;
+}
+function login()
+{
+document.getElementById("para").innerHTML="Successfully Logged in!!";
+}
+function aletTest()
+{
+alert("Enter No.")
+}
+function result()
+{
+var res = document.getElementById('test').value
+alert('Your Result is '+res * 5)
+}
+function hello()
+{
+var nam = prompt("Enter your name ","Aishwarya")
+if(nam != "")
+{
+document.getElementById("para").innerHTML="Hello "+nam+" Welcome";
+}
+}
+</script>
+<body onload="alert('hello');">
+<input type="text" id="name"><br>
+<button onclick="hello();">LOGIN</button>
+<p id="para" style="color:blue;">WELCOME</p>
+<button onclick="aletTest();">Alert Test</button>
+<input type="text" id="test">
+<button onclick="result()">Result</button>
+</body>
+</html>
